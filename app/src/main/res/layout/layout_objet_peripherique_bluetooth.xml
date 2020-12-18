@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/layout_device_bluetooth"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_pictograme"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView_deviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Device Name"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView_pictograme"
+        android:layout_above="@+id/textView_adresseMac"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="adresse: ..."
+        android:id="@+id/textView_adresseMac"
+        android:layout_alignBottom="@+id/imageView_pictograme"
+        android:layout_alignLeft="@+id/textView_deviceName"
+        android:layout_alignStart="@+id/textView_deviceName"
+
+        />
+
+    <TextView
+        android:id="@+id/textView_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="type"
+        android:layout_toLeftOf="@id/imageView_favori"
+        android:layout_alignBottom="@id/textView_adresseMac"
+        android:layout_marginRight="5dp"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView_favori"
+        android:background="@mipmap/etoile_vide_1024_1024"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+
+</RelativeLayout>

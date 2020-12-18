@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ecran.Telecommande">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_telecommande_nom_periph_selectionne"
+        android:text="NOM"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_telecommande_adresse_mac_periph_selectionne"
+        android:text="ADRESSE"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/layout_telecommande_nom_periph_selectionne"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_telecommande_btn_connect"
+        android:text="Connexion"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/layout_telecommande_adresse_mac_periph_selectionne"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_telecommande_bouton1"
+        android:text="Bouton 1"
+        android:layout_below="@+id/layout_telecommande_btn_connect"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/layout_telecommande_text_champ_1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/layout_telecommande_bouton1"
+        android:layout_alignBottom="@id/layout_telecommande_bouton1"
+        android:layout_marginLeft="5dp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_telecommande_bouton2"
+        android:text="Bouton 2"
+        android:layout_below="@+id/layout_telecommande_bouton1"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/layout_telecommande_text_champ_2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/layout_telecommande_bouton2"
+        android:layout_alignBottom="@id/layout_telecommande_bouton2"
+        android:layout_marginLeft="5dp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_telecommande_bouton3"
+        android:text="Bouton 3"
+        android:layout_below="@+id/layout_telecommande_bouton2"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/layout_telecommande_text_champ_3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/layout_telecommande_bouton3"
+        android:layout_alignBottom="@id/layout_telecommande_bouton3"
+        android:layout_marginLeft="5dp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_telecommande_boutonVert"
+        android:text="Bouton Vert"
+        android:layout_below="@+id/layout_telecommande_bouton3"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_telecommande_boutonBleu"
+        android:text="Bouton Bleu"
+        android:layout_below="@+id/layout_telecommande_boutonVert"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_telecommande_boutonRouge"
+        android:text="Bouton Rouge"
+        android:layout_below="@+id/layout_telecommande_boutonBleu"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_telecommande_retour"
+        android:text="Retour"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/layout_scan_bluetooth"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/group_bouton_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+
+        <Button
+            android:id="@+id/btn_scan"
+            android:text="@string/bluetooth_btn_scan"
+            android:textSize="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="25"
+            android:textAlignment="center"
+
+            />
+
+        <Button
+            android:id="@+id/btn_refresh"
+            android:text="@string/bluetooth_btn_refresh"
+            android:textSize="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+        <Button
+            android:id="@+id/btn_select"
+            android:text="@string/bluetooth_btn_select"
+            android:textSize="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+        <Button
+            android:id="@+id/btn_favori"
+            android:text="@string/bluetooth_btn_favori"
+            android:textSize="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/titre_liste_periph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group_bouton_scan"
+        android:layout_centerHorizontal="true"
+        android:text="@string/bluetooth_titre_liste_periph"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <ListView
+        android:id="@+id/list_view_periph"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titre_liste_periph"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_retour_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bluetooth_btn_retour"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+
+
+</RelativeLayout>

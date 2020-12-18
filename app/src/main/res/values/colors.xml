@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+
+    <color name="transparant">#00000000</color>
+
+    <color name="bleu">#0000FF</color>
+    <color name="vert">#00FF00</color>
+    <color name="rouge">#FF0000</color>
+
+    <color name="jaune">#FFFF00</color>
+    <color name="fushia">#FF00FF</color>
+    <color name="turquoise">#00FFFF</color>
+
+
+
+
+
+
+</resources>

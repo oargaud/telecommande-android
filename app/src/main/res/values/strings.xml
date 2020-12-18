@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Telecommande 4.0</string>
+
+    <string name="accueil_btn_entrer">entrer</string>
+
+
+    <string name="menu_btn_scan_bluetooth">Scan Bluetooth</string>
+    <string name="menu_btn_telecommande">telecommande</string>
+    <string name="menu_btn_3">bouton 3</string>
+    <string name="menu_btn_4">bouton 4</string>
+
+
+
+    <string name="bluetooth_titre_liste_periph">liste de periphérique</string>
+
+    <string name="bluetooth_bouton_favori">Favori</string>
+
+    <string name="bluetooth_btn_scan">scan</string>
+    <string name="bluetooth_btn_refresh">refresh</string>
+    <string name="bluetooth_btn_select">select</string>
+    <string name="bluetooth_btn_favori">favori</string>
+
+    <string name="bluetooth_btn_retour">retour</string>
+
+    <string name="bluetooth_scanEnCour">scan en cour</string>
+
+
+
+</resources>
